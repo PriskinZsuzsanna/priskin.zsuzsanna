@@ -35,7 +35,7 @@
 }
 
 body {
-    min-height: 100dvh;
+    min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
     background-image: linear-gradient(to bottom right, var(--bg-1), var(--bg-2));
     background-attachment: fixed;
@@ -305,7 +305,6 @@ button:hover a {
 
 
 .cards {
-
     height: 21rem;
     margin-inline: auto;
     position: relative;
@@ -1310,6 +1309,10 @@ button:hover a {
     .cards {
         width: 100%;
         padding: 0;
+    }
+
+    .cards {
+        margin-top: -30px;
     }
 
     #home .social ul {
