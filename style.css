@@ -1313,6 +1313,7 @@ button:hover a {
 
     .cards {
         margin-top: -30px;
+        margin-left: -10px;
     }
 
     #home .social ul {
@@ -1375,7 +1376,7 @@ button:hover a {
     }
 
     .home-section {
-        padding-block: 45px;
+        padding-block: 45px 15px;
     }
 
     .home-text h1 {
