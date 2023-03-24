@@ -1,0 +1,179 @@
+.main {
+    max-width: 1600px;
+}
+
+section#about {
+    background: #ffffff89;
+    padding: 40px 0 10px;
+}
+
+/*--------------CV-----------------------------*/
+
+
+.cv-container .row {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cv-container .text {
+    width: 60%;
+}
+
+.cv-container .about-tabs{
+    display: flex;
+    justify-content: center;
+}
+
+.cv-container .tab-item {
+    color: var(--color-light);
+    opacity: 1;
+}
+
+.cv-container .timelines-1 .timeline-item h4,
+.cv-container .timelines-2 .timeline-item h4 {
+    margin: 0;
+}
+
+.cv-container .cards {
+    width: 35%;;
+}
+
+.cv-container .text .section-title {
+    text-align: left;
+    padding-inline: 0;
+}
+
+.cv-container li {
+    padding-bottom: 10px;
+}
+
+.cv-container i {
+    padding-right: 10px;
+}
+
+.cv-container .row .about-text,
+.cv-container .row .skills {
+    width: 100%;
+    text-align: justify;
+    gap: 0;
+}
+
+.cv-container .row.timelines-row {
+    align-items: flex-start;
+}
+
+.cv-container .row .timelines-1 {
+    width: 30%;
+}
+.cv-container .row .timelines-2 {
+    width: 35%;
+}
+.cv-container .row .timelines-3 {
+    width: 30%;
+}
+
+
+.timelines-1 .timeline,
+.timelines-2 .timeline,
+.timelines-3 .timeline {
+    position: relative;
+}
+
+.timelines-1 .timeline::before,
+.timelines-2 .timeline::before,
+.timelines-3 .timeline::before {
+    content: '';
+    position: absolute;
+    height: 110%;
+    width: 1px;
+    top: -5%;
+    left: 5px;
+    background: linear-gradient(to bottom, #658dc62a, var(--color-light), #658dc62a)
+}
+
+.timelines-1 .tab-content,
+.timelines-2 .tab-content,
+.timelines-3 .tab-content {
+    padding: 40px 0;
+    display: none;
+}
+
+.timelines-1 .tab-content.active,
+.timelines-2 .tab-content.active,
+.timelines-3 .tab-content.active {
+    display: block;
+}
+
+.timelines-1 .timeline-item,
+.timelines-2 .timeline-item,
+.timelines-3 .timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px 0 0 40px;
+}
+
+.timelines-1 .timeline-item::before,
+.timelines-2 .timeline-item::before,
+.timelines-3  .timeline-item::before {
+    content: '';
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    background-color: var(--color-light);
+    left: 0;
+    top: 16px;
+    border-radius: 50%;
+}
+
+.timelines-1 .timeline-item:last-child,
+.timelines-2 .timeline-item:last-child,
+.timelines-3 .timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timelines-1 .timeline-item .date,
+.timelines-2 .timeline-item .date,
+.timelines-3 .timeline-item .date {
+    display: block;
+    color: var(--color-light);
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.timelines-1 .timeline-item h4,
+.timelines-2 .timeline-item h4,
+.timelines-3 .timeline-item h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+
+.timelines-1 .timeline-item span,
+.timelines-2 .timeline-item span,
+.timelines-3 .timeline-item span {
+    font-weight: 400;
+}
+
+.timeline-item .skills .skill-item {
+    margin-top: 10px;
+ }
+
+.timelines-1 .btn,
+.timelines-2 .btn {
+    margin: 15px 15px 15px 0;
+}
+
+.timeline ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+

@@ -625,6 +625,10 @@ button:hover a {
     font-weight: 400;
 }
 
+.timeline-item .skills .skill-item {
+    margin-top: 10px;
+ }
+
 .timelines .btn {
     margin: 15px 15px 15px 0;
 }
@@ -930,7 +934,7 @@ button:hover a {
     margin: 10px;
 }
 
-.social ul li a {
+.social ul li a{
     position: relative;
     width: 50px;
     height: 50px;
@@ -1096,6 +1100,9 @@ button:hover a {
     margin-top: 0;
     padding: 8px 33px;
 }
+
+
+
 
 /*---------------------Keyframes----------------*/
 
