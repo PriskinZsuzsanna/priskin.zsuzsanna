@@ -35,7 +35,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 120vh;
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
     background-image: linear-gradient(to bottom right, var(--bg-1), var(--bg-2));
     background-attachment: fixed;
