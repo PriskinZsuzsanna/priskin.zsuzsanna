@@ -375,6 +375,7 @@ button:hover a {
 .card:nth-of-type(5) h4,
 .card:nth-of-type(7) h4,
 .card:nth-of-type(9) h4,
+.card:nth-of-type(11) h4,
 .cv-card h4 a {
     color: var(--white);
 }
@@ -459,6 +460,13 @@ button:hover a {
     top: 16px;
     right: 32px;*/
     animation: card10 2.5s;
+    animation-fill-mode: forwards;
+}
+.card:nth-of-type(11) {
+    /*position: absolute;
+    top: 16px;
+    right: 32px;*/
+    animation: card11 2.5s;
     animation-fill-mode: forwards;
 }
 
@@ -1199,7 +1207,7 @@ button:hover a {
     100% {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 74px;
         opacity: 1;
     }
 }
@@ -1264,6 +1272,21 @@ button:hover a {
         position: absolute;
         top: 16px;
         right: 32px;
+        opacity: 1;
+    }
+}
+@keyframes card11 {
+    0% {
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        opacity: 0;
+    }
+
+    100% {
+        position: absolute;
+        top: 52%;
+        right: 50%;
         opacity: 1;
     }
 }
