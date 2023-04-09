@@ -802,6 +802,10 @@ button:hover a {
     gap: 25px;
 }
 
+.description h3 {
+    text-align: center;
+}
+
 .pp-body a {
     text-transform: lowercase;
     color: var(--color-light);
