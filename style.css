@@ -96,6 +96,7 @@ section {
     min-height: 90vh;
     border-radius: 30px;
     backdrop-filter: var(--backdrop-filter-blur);
+    animation: fadeInSection .7s ease-in-out;
 }
 
 .main {
@@ -1116,6 +1117,18 @@ button:hover a {
 
 
 /*---------------------Keyframes----------------*/
+
+@keyframes fadeInSection {
+    0% 
+    {
+        opacity: 0;
+    }
+
+    100% 
+    {
+        opacity: 1;
+    }
+}
 
 @keyframes card1 {
     0% {
