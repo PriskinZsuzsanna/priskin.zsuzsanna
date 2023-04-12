@@ -77,7 +77,8 @@ h2 {
 h3,
 h4,
 h5,
-h6 {
+h6,
+p.bold {
     font-weight: 500;
 }
 
@@ -371,13 +372,13 @@ button:hover a {
     transform: skewX(45deg) translateX(-150px);
 }
 
-.card:nth-of-type(1) h4,
-.card:nth-of-type(3) h4,
-.card:nth-of-type(5) h4,
-.card:nth-of-type(7) h4,
-.card:nth-of-type(9) h4,
-.card:nth-of-type(11) h4,
-.cv-card h4 a {
+.card:nth-of-type(1) p,
+.card:nth-of-type(3) p,
+.card:nth-of-type(5) p,
+.card:nth-of-type(7) p,
+.card:nth-of-type(9) p,
+.card:nth-of-type(11) p,
+.cv-card p a {
     color: var(--white);
 }
 
